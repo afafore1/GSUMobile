@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:id="@+id/Homepage"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/books"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Home">
+    <Button
+        android:id="@+id/btnBuy"
+        android:text="Buy"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buybuttonshape"
+        android:shadowColor="#A7A3A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="searchBooks"
+        />
+    <Button
+        android:id="@+id/btnSell"
+
+        android:text="Sell"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnBuy"
+        android:background="@drawable/redbuttonshape"
+        android:layout_marginTop="30dp"
+        android:shadowColor="#f0fff4"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+</RelativeLayout>
